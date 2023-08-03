@@ -33,7 +33,7 @@ Usage:
 * If you notice pleatueas in the data, uncomment lines 145 through 152 and adjust the value to be the plateau cutoff value.
   
 ## skew.C
-This file allows you to plot a graph that compares two characteristics of specified events. The code calculates the time difference in the same way as the time_diff.C file, and then allows you to specify what characteristic of the events to plot on each axis.
+This file allows you to plot a graph that compares two characteristics of specified events. The code calculates the time difference in the same way as the time_diff.C file, and then allows you to specify what characteristics of the events to plot on each axis.
 
 Usage:
 * Change the upper bound of the for loop to match the number of the last event taken.
