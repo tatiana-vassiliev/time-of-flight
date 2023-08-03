@@ -17,7 +17,7 @@
   TGraph* m = new TGraph();
   string formattedNumber;
 
-  // writes values to a .txt file for debugging purposes
+  // to write values to a .txt file for debugging purposes, uncomment lines 22, 23, and 161
   /*
   ofstream file("values.txt", ios::out | ios::app);
   file <<"#\tC3 Scaling\tC4 Scaling\tC3 Time\tC4 Time"<<endl;
@@ -157,7 +157,7 @@
     m-> SetPoint(k, abs(tempmin1-tempmin2), timediff);
     k= k+1;
 
-    // uncomment the following line to write values to the values.txt file
+    // to write values to a .txt file for debugging purposes, uncomment lines 22, 23, and 161
     //file <<fixed << setprecision(7)<<formattedNumber<< "\t"<<normal_c3<< "\t"<<normal_c4<<"\t"<<setprecision(14)<<paramx1<<"\t"<<paramx2<< endl;
 
   }
