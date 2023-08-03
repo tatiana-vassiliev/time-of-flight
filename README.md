@@ -30,7 +30,7 @@ Usage:
 * To limit which events are added to the histogram, add if statements around line 158.
 * To set the percentage of the peak at which the two graphs of an event are compared, change variable param. It is currently set at -0.4, which is 40%. 30% would be -0.3, and so on.
 * To debug the code and see values for each event in a .txt file, uncomment lines 22, 23, and 161.
-* If you notice pleatueas in the data, uncomment lines 145 through 152 and adjust the value to be the plateau cutoff value.
+* If you notice pleatueas in the data, uncomment lines 147 through 153 and adjust the value to be the plateau cutoff value.
   
 ## skew.C
 This file allows you to plot a graph that compares two characteristics of specified events. The code calculates the time difference in the same way as the time_diff.C file, and then allows you to specify what characteristics of the events to plot on each axis.
