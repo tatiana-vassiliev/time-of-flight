@@ -18,3 +18,14 @@ This file allows you to visualize an event by graphing a peak from each channel 
 Usage:
 * Change the g and z variable source files to align with the channel and file numbers you want to visualize.
 * To update the graph titles, change the g -> SetTitle and z -> SetTitle lines
+
+## time_diff.C
+This file allows you to plot a histogram of time diffferences for specified events. The code calculates the time difference by subtracting the time it takes one graph of an event to reach a percentage of the peak from the time it takes for the other graph to reach the same percentage of its peak.
+
+## skew.C
+This file allows you to plot a graph that compares two characteristics of specified events. The code calculates the time difference in the same way as the time_diff.C file, and then allows you to specify what characteristic of the events to plot on each axis.
+
+Usage:
+* Change the upper bound of the for loop to match the number of the last event taken.
+* Within the for loop, change the "C3"  and "C4" values of the string variables c3 and c4 to match the channel numbers used, ie. C1 and C2.
+* To debug the code and see values for each event in a .txt file, uncomment lines 22, 23, and 161
