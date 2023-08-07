@@ -42,5 +42,5 @@ Usage:
 * To limit which events are graphed, add if statements around line 157 and 158.
 * To update the graph title and axis labels, change the m -> SetTitle on line 169.
 * To set the percentage of the peak at which the two graphs of an event are compared, change variable param. It is currently set at -0.4, which is 40%. 30% would be -0.3, and so on.
-* To debug the code and see values for each event in a .txt file, uncomment lines 22, 23, and 161.
+* To debug the code and see values for each event in a .txt file, uncomment lines 22, 23, 161, and 166.
 * If you notice pleatueas in the data, uncomment lines 145 through 152 and adjust the value to be the plateau cutoff value.
