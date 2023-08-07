@@ -29,7 +29,7 @@ Usage:
 * To update axis titles, adjust line 171 and 172.
 * To limit which events are added to the histogram, add if statements around line 158.
 * To set the percentage of the peak at which the two graphs of an event are compared, change variable param. It is currently set at -0.4, which is 40%. 30% would be -0.3, and so on.
-* To debug the code and see values for each event in a .txt file, uncomment lines 24, 25, and 162.
+* To debug the code and see values for each event in a .txt file, uncomment lines 24, 25, 162, and 167.
 * If you notice pleatueas in the data, uncomment lines 147 through 153 and adjust the value to be the plateau cutoff value.
   
 ## skew.C
