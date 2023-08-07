@@ -19,7 +19,7 @@
   // adjust the title of the histogram here
   TH1F *hist = new TH1F("hist","Time Difference", 300, -0.000000002, 0.000000002);
 
-  // to write values to a .txt file for debugging purposes, uncomment lines 24, 25, and 162
+  // to write values to a .txt file for debugging purposes, uncomment lines 24, 25, 162, and 167
   /*
   ofstream file("values.txt", ios::out | ios::app);
   file <<"#\tC3 Scaling\tC4 Scaling\tC3 Time\tC4 Time"<<endl;
@@ -158,12 +158,13 @@
     timediffList.push_back(timediff);
 
 
-    // to write values to a .txt file for debugging purposes, uncomment lines 24, 25, and 162
+    // to write values to a .txt file for debugging purposes, uncomment lines 24, 25, 162, and 167
     //file <<fixed << setprecision(7)<<formattedNumber<< "\t"<<normal_c3<< "\t"<<normal_c4<<"\t"<<setprecision(14)<<paramx1<<"\t"<<paramx2<< endl;
 
   }
 
-  file.close();
+  // to write values to a .txt file for debugging purposes, uncomment lines 24, 25, 162, and 167
+  //file.close();
 
   // create a histogram with the time differences
   vector<double> w(timediffList.size(),1);
